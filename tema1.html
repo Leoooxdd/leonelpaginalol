@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Métodos Hormonales</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #EAF6F6;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+
+    header, footer {
+      background-color: #0B486B;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      animation: fadeInDown 2s ease;
+    }
+
+    nav {
+      background-color: #3B8686;
+      padding: 10px;
+      text-align: center;
+      animation: slideInLeft 1.5s ease;
+    }
+
+    nav a {
+      margin: 10px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: transform 0.3s, color 0.3s;
+    }
+
+    nav a:hover {
+      transform: scale(1.1);
+      color: #FFD700;
+    }
+
+    section {
+      display: flex;
+      padding: 20px;
+      flex-wrap: wrap;
+      animation: fadeInUp 1.5s ease;
+    }
+
+    article {
+      flex: 3;
+      margin-right: 20px;
+      animation: zoomIn 1.2s ease;
+    }
+
+    aside {
+      flex: 1;
+      background: #CFF0F2;
+      padding: 10px;
+      border-radius: 8px;
+      animation: fadeIn 2s ease;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 5px;
+      transition: transform 0.4s;
+    }
+
+    img:hover {
+      transform: scale(1.05);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideInLeft {
+      from { opacity: 0; transform: translateX(-100px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+
+    @keyframes zoomIn {
+      from { transform: scale(0.8); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><h1>Educación Sexual y Métodos Anticonceptivos</h1>
+    <p>Colegio de bachilleres del estado de morelos santa rosa 30   
+Leonel Aguirre Medina - Grupo 501 - Páginas Web - Fecha 7-8-2025</p>
+<img src="logo.jpg" width="200" height="200"> 
+</header>
+
+  <nav>
+    <a href="inicio.html">Inicio</a>
+    <a href="tema1.html">Métodos Hormonales</a>
+    <a href="tema2.html">Métodos de Barrera</a>
+    <a href="tema3.html">Métodos Naturales</a>
+    <a href="tema4.html">Embarazo Adolescente</a>
+    <a href="tema5.html">Prevención</a>
+  </nav>
+
+  <section>
+    <article>
+      <h2>Píldoras Anticonceptivas</h2>
+      <p><img src="2.jpg" width="150" height="150" alt="Píldoras anticonceptivas"></p>
+      <p>
+        Las <strong>píldoras anticonceptivas</strong> son un método hormonal muy eficaz para prevenir el embarazo. Se toman por vía oral y contienen hormonas (estrógeno y progestina, o solo progestina) que evitan la ovulación.
+      </p>
+
+      <h3>¿Cómo funcionan?</h3>
+      <ul>
+        <li>Inhiben la ovulación (no se libera un óvulo).</li>
+        <li>Engrosan el moco cervical, dificultando el paso del esperma.</li>
+        <li>Alteran el revestimiento del útero, haciendo menos probable la implantación.</li>
+      </ul>
+
+      <h3>Tipos de píldoras anticonceptivas</h3>
+      <ul>
+        <li><strong>Combinadas:</strong> Estrógeno y progestina. Se toman durante 21 días seguidos, con 7 días de descanso o píldoras placebo.</li>
+        <li><strong>Solo progestina (minipíldora):</strong> Recomendadas para mujeres lactantes o que no pueden tomar estrógenos.</li>
+      </ul>
+
+      <h3>Ventajas</h3>
+      <ul>
+        <li>Alta eficacia (más del 99% con uso correcto).</li>
+        <li>Regulan el ciclo menstrual.</li>
+        <li>Reducen el acné y cólicos menstruales.</li>
+        <li>Disminuyen el riesgo de algunos tipos de cáncer.</li>
+      </ul>
+
+      <h3>Desventajas o efectos secundarios</h3>
+      <ul>
+        <li>Náuseas, sensibilidad en los senos, cambios de humor.</li>
+        <li>Manchado entre periodos.</li>
+        <li>No protegen contra ETS.</li>
+        <li>Se deben tomar a la misma hora cada día.</li>
+      </ul>
+
+      <h3>¿Quiénes deben evitarlas?</h3>
+      <p>No son recomendadas para personas con coágulos, presión alta, migrañas graves o fumadoras mayores de 35 años.</p>
+
+      <aside style="background-color:#FFF0C1; padding:10px; border-left:4px solid #FFD700; margin-top:20px;">
+        <h4>Importante:</h4>
+        <p>Para mantener su eficacia, <strong>tómala todos los días a la misma hora</strong>. Si olvidas una dosis, consulta el empaque o a tu médico.</p>
+      </aside>
+    </article>
+    <article>
+      <h2>Inyecciones Anticonceptivas</h2>
+      <p><img src="3.jpg" width="150" height="150" alt="Inyección anticonceptiva"></p>
+      <p>
+        Las <strong>inyecciones anticonceptivas</strong> son un método hormonal aplicado mediante una inyección intramuscular, generalmente cada 1 o 3 meses. Contienen progestina, que evita la ovulación.
+      </p>
+
+      <h3>¿Cómo funcionan?</h3>
+      <ul>
+        <li>Inhiben la ovulación.</li>
+        <li>Engrosan el moco cervical, bloqueando el paso del esperma.</li>
+        <li>Hacen el endometrio menos receptivo.</li>
+      </ul>
+
+      <h3>Ventajas</h3>
+      <ul>
+        <li>Muy eficaz (hasta 99%).</li>
+        <li>No requiere uso diario.</li>
+        <li>Disminuye dolores menstruales.</li>
+        <li>Reduce riesgo de ciertos cánceres ginecológicos.</li>
+      </ul>
+
+      <h3>Desventajas o efectos secundarios</h3>
+      <ul>
+        <li>Aumento de peso.</li>
+        <li>Irregularidades menstruales.</li>
+        <li>Fertilidad puede tardar en regresar al suspenderla.</li>
+        <li>No protege contra ETS.</li>
+        <li>Requiere acudir al centro de salud.</li>
+      </ul>
+
+      <aside style="background-color:#FDEBEF; padding:10px; border-left:4px solid #E74C3C; margin-top:20px;">
+        <h4>Consejo:</h4>
+        <p>Marca en tu calendario la fecha de la siguiente dosis para no perder la protección.</p>
+      </aside>
+    </article>
+
+    <article>
+      <h2>Parches Anticonceptivos</h2>
+      <p><img src="4.jpg" width="150" height="150" alt="Parche anticonceptivo"></p>
+      <p>
+        El <strong>parche anticonceptivo</strong> es un pequeño adhesivo que se coloca en la piel (brazo, abdomen, espalda o glúteo) y libera hormonas similares a las de la píldora.
+      </p>
+
+      <h3>¿Cómo funciona?</h3>
+      <ul>
+        <li>Evita la ovulación.</li>
+        <li>Espesa el moco cervical.</li>
+        <li>Modifica el revestimiento del útero.</li>
+      </ul>
+
+      <h3>Modo de uso</h3>
+      <ul>
+        <li>Se coloca un parche cada semana durante 3 semanas.</li>
+        <li>La cuarta semana no se usa (periodo menstrual).</li>
+      </ul>
+
+      <h3>Ventajas</h3>
+      <ul>
+        <li>Alta eficacia si se usa bien.</li>
+        <li>No requiere tomar pastillas.</li>
+        <li>Discreto y fácil de usar.</li>
+      </ul>
+
+      <h3>Desventajas o efectos secundarios</h3>
+      <ul>
+        <li>Irritación en la piel.</li>
+        <li>No recomendado para personas con sobrepeso.</li>
+        <li>No protege contra ETS.</li>
+      </ul>
+
+      <aside style="background-color:#E0F3FF; padding:10px; border-left:4px solid #3498DB; margin-top:20px;">
+        <h4>Nota:</h4>
+        <p>No coloques el parche dos veces seguidas en el mismo lugar. Revisa que esté bien adherido y cámbialo a tiempo.</p>
+      </aside>
+    </article>
+  </section>
+
+ 
+<footer>
+    <p>COBAEM Plantel 10 - derechos reservados 2025 copirig</p>
+</footer>
+</body>
+</html>
+

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(#eaf6f6, #ffffff);
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        header, footer {
+            background-color: #0B486B;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            animation: entrada-fade 2s ease-in-out;
+        }
+
+        nav {
+            background-color: #3B8686;
+            padding: 10px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            margin: 10px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            position: relative;
+            padding: 8px 12px;
+            transition: background 0.3s, transform 0.3s;
+        }
+
+        nav a:hover {
+            background: #0B486B;
+            border-radius: 8px;
+            transform: scale(1.1);
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+            animation: entrada-slide 1.5s ease-out;
+        }
+
+        article {
+            flex: 3;
+            margin-right: 20px;
+            animation: flotar 5s infinite alternate;
+        }
+
+        aside {
+            flex: 1;
+            background: #CFF0F2;
+            padding: 10px;
+            border-radius: 8px;
+            animation: resaltar 2s ease-in-out infinite alternate;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 5px;
+            transition: transform 0.4s ease;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        video {
+            margin-top: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+            transition: transform 0.4s ease;
+        }
+
+        video:hover {
+            transform: scale(1.02);
+        }
+
+        /* Animaciones personalizadas */
+        @keyframes entrada-fade {
+            0% { opacity: 0; transform: translateY(-20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes entrada-slide {
+            0% { opacity: 0; transform: translateX(-30px); }
+            100% { opacity: 1; transform: translateX(0); }
+        }
+
+        @keyframes flotar {
+            0% { transform: translateY(0px); }
+            100% { transform: translateY(10px); }
+        }
+
+        @keyframes resaltar {
+            0% { box-shadow: 0 0 10px #6fc3df; }
+            100% { box-shadow: 0 0 20px #3B8686; }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Educación Sexual y Métodos Anticonceptivos</h1>
+    <p>Colegio de bachilleres del estado de morelos santa rosa 30   
+Leonel Aguirre Medina - Grupo 501 - Páginas Web - Fecha 7-8-2025</p>
+<img src="logo.jpg" width="200" height="200"> 
+</header>
+<nav>
+    <a href="inicio.html">Inicio</a>
+    <a href="tema1.html">Métodos Hormonales</a>
+    <a href="tema2.html">Métodos de Barrera</a>
+    <a href="tema3.html">Métodos Naturales</a>
+    <a href="tema4.html">Embarazo Adolescente</a>
+    <a href="tema5.html">Prevención</a>
+</nav>
+<section>
+<article>
+<h2>Bienvenidos</h2>
+<p>Este sitio está dedicado a informar de manera clara y accesible sobre los métodos anticonceptivos y el embarazo adolescente. Está dirigido a estudiantes, padres de familia y público en general, con el fin de promover una sexualidad responsable.</p>
+<p>En la actualidad, es fundamental contar con información veraz y confiable sobre la salud sexual. Este sitio recopila datos, consejos, y recursos que pueden ayudarte a tomar decisiones informadas.</p>
+
+<article>
+  <h2>¿Qué es un método anticonceptivo?</h2>
+  <p>
+    Un <strong>método anticonceptivo</strong> es cualquier técnica, medicamento, dispositivo o práctica que se usa para <strong>prevenir un embarazo</strong> durante una relación sexual.
+  </p>
+
+  <h3>¿Para qué sirven?</h3>
+  <ul>
+    <li>Evitan que el espermatozoide y el óvulo se unan (fecundación).</li>
+    <li>O impiden que un óvulo fecundado se implante en el útero.</li>
+    <li>Algunos también <strong>protegen contra enfermedades de transmisión sexual (ETS)</strong>.</li>
+  </ul>
+
+  <h3>Tipos de métodos anticonceptivos</h3>
+
+  <h4>1. Métodos de barrera</h4>
+  <ul>
+    <li><strong>Condón masculino o femenino:</strong> Evita el paso del esperma. También protege contra ETS.</li>
+    <li><strong>Diafragma o esponja anticonceptiva:</strong> Forman una barrera en el cuello del útero. Menos comunes.</li>
+  </ul>
+
+  <h4>2. Métodos hormonales</h4>
+  <ul>
+    <li><strong>Pastillas anticonceptivas</strong></li>
+    <li><strong>Inyecciones</strong></li>
+    <li><strong>Parche anticonceptivo</strong></li>
+    <li><strong>Anillo vaginal</strong></li>
+    <li>Estos métodos regulan las hormonas para evitar la ovulación.</li>
+  </ul>
+
+  <h4>3. Dispositivos intrauterinos (DIU)</h4>
+  <ul>
+    <li><strong>DIU de cobre o hormonal:</strong> Se colocan en el útero y duran de 3 a 10 años.</li>
+  </ul>
+
+  <h4>4. Métodos permanentes</h4>
+  <ul>
+    <li><strong>Ligadura de trompas (mujer)</strong></li>
+    <li><strong>Vasectomía (hombre)</strong></li>
+    <li>Son irreversibles o muy difíciles de revertir.</li>
+  </ul>
+
+  <h4>5. Métodos naturales</h4>
+  <ul>
+    <li>Consisten en observar el ciclo menstrual y evitar relaciones sexuales durante los días fértiles.</li>
+    <li>Son <strong>menos seguros</strong> que otros métodos.</li>
+  </ul>
+
+  <h4>6. Anticoncepción de emergencia</h4>
+  <ul>
+    <li><strong>Pastilla del día después</strong></li>
+    <li><strong>DIU de cobre</strong></li>
+    <li>Se usa en situaciones de urgencia, como relaciones sin protección o fallos del anticonceptivo.</li>
+  </ul>
+
+  <aside style="background-color:#CFF0F2; padding:10px; border-radius:8px; margin-top:20px;">
+    <h4>Importante</h4>
+    <p><strong>Ningún método es 100% seguro</strong>, pero algunos tienen una eficacia del 98-99% si se usan correctamente.</p>
+    <p>El <strong>condón</strong> es el único método que también protege contra ETS.</p>
+  </aside>
+</article>
+
+</article>
+
+<article>
+<h2>Objetivos del sitio</h2>
+<ul>
+  <li>Informar sobre los distintos métodos anticonceptivos existentes.</li>
+  <li>Concientizar sobre los riesgos del embarazo en la adolescencia.</li>
+  <li>Ofrecer recursos útiles para estudiantes, padres y docentes.</li>
+</ul>
+</article>
+
+<video width="640" height="360" controls>
+  <source src="videoxd2.mp4" type="video/mp4" />
+  Tu navegador no puede reproducir este video.
+</video>
+
+<aside>
+    <h3>Dato Interesante</h3>
+    <p>Más del 90% de los embarazos adolescentes pueden prevenirse con educación sexual y acceso a anticonceptivos.</p>
+    <img src="1.jpg" width="200" height="200">
+</aside>
+</section>
+
+
+<div style="margin-top: 40px;">
+  <p style="position: relative; font-size: 22px; font-weight: bold; color: #0B486B; animation: deslizar 8s linear infinite;">
+    Cuida tu vida sexual con responsabilidad 💙
+  </p>
+</div>
+
+<style>
+  @keyframes deslizar {
+    0% { left: -100%; }
+    50% { left: 50%; transform: translateX(-50%); }
+    100% { left: 100%; }
+  }
+</style>
+
+<footer>
+    <p>COBAEM Plantel 10 - derechos reservados 2025 copirig</p>
+</footer>
+</body>
+</html>
